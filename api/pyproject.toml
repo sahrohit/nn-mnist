@@ -1,0 +1,17 @@
+[project]
+name = "nn-minst"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "firebase-admin>=6.7.0",
+    "flask>=3.1.0",
+    "flask-cors>=5.0.1",
+    "gunicorn>=23.0.0",
+    "ipykernel>=6.29.5",
+    "numpy>=2.2.4",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+]
